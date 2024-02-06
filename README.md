@@ -1,6 +1,13 @@
-# datafun-05-SQL
-1. Initialize venv
-2. Activate powershell script
-3. Install Panda and Arrow
-4. Execute freeze
+# dstcyr  datafun-05-SQL
+# Initialize venv
+py -m venv .venv
+
+# Activate powershell script
+.\.venv\Scripts\Activate.ps1
+
+# Install Panda and Arrow
+py -m pip install pandas pyarrow
+
+# Execute freeze
+py -m pip freeze > requirements.txt
 
