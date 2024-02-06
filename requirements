@@ -1,2 +1,4 @@
-pandas 
-pyarrow
+pandas
+numpy
+seaborn
+matplotlib
