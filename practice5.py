@@ -1,5 +1,5 @@
 # Initialize venv
-py -m venv .venv
+py -m venv .\venv
 
 # Activate powershell script
 .\.venv\Scripts\Activate.ps1
