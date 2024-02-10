@@ -148,6 +148,10 @@ The code should be clear, well-organized, and demonstrate good practices.
 Include comments and docstrings for clarity.
 
 
+![image](https://github.com/14dstcyr/datafun-05-SQL/assets/156037147/f774d466-359e-4de0-b4fb-80b905c43106)
+
+
+
 
 
 
