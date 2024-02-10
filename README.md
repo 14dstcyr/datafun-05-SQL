@@ -5,12 +5,26 @@
 '''Project 5 integrates Python and SQL, focusing on SQLite database interactions. This project introduces logging and involves creating and managing a database, building a schema, and performing various SQL operations, including queries with joins, filters, and aggregations.'''
 
 ## Project Deliverables
--Author Data
--Book Data
+- GitHub Repository: https://github.com/14dstcyr/datafun-05-SQL  
+- Documentation: README.md
+- Initialize script: db_initialize_debstcyr.py
+- Operations script: db_operations_debstcyr.py
 
 ## External Dependencies
--pandas
--pyarrow
+- pandas
+- pyarrow
+
+## Version Control with Git
+- Create a new GitHub repository.
+- Clone the repository to your local machine.
+- Document the steps and commands in your README.md.
+- Document your workflow and commands: Git add and commit with a helpful message (e.g., "initial commit") and push to GitHub.
+    - git add .
+    - git commit -m "initial commit"
+    - git push origin main
+ 
+## Objective 
+Create a Python script demonstrating the ability to interact with a SQL database, including creating a database, defining a schema, and executing various SQL commands. Incorporate logging to document the process and provide user feedback.
 
 ## Initialize venv
 py -m venv .venv
@@ -19,25 +33,21 @@ py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
 ## Install Panda, numpy, seaborn
-py -m pip install pandas 
-py -m pip install numpy
-py -m pip install seaborn
-py -m pip install matplotlib
+- py -m pip install pandas
+- py -m pip install numpy
+- py -m pip install seaborn
+- py -m pip install matplotlib
 
 ## Execute freeze dependencies
 py -m pip freeze > requirements.txt
 
-## Objective 
-Create a Python script demonstrating the ability to interact with a SQL database, including creating a database, defining a schema, and executing various SQL commands. Incorporate logging to document the process and provide user feedback.
-
 ## Environment Setup
-Create and activate a Python virtual environment for the project.
-You can install all required packages into your local project virtual environment.
-After you install the required dependencies, you can redirect the output of the pip freeze command to a requirements.txt file in your root project folder.
-Document the process and commands you used in your README.md.
-Add a .gitignore file to your project to exclude the virtual environment folder, your .vscode settings folder, and any other files that must not be committed to GitHub.
-Terminal Commands: Windows example - record your process in your README:
-
+- Create and activate a Python virtual environment for the project.
+- You can install all required packages into your local project virtual environment.
+- After you install the required dependencies, you can redirect the output of the pip freeze command to a requirements.txt file in your root project folder.
+- Document the process and commands you used in your README.md.
+- Add a .gitignore file to your project to exclude the virtual environment folder, your .vscode settings folder, and any other files that must not be committed to GitHub.
+- Terminal Commands: Windows example - record your process in your README:
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 py -m pip install pandas pyarrow
@@ -47,9 +57,9 @@ py -m pip freeze > requirements.txt
 In your Python file, you can create a docstring with a brief introduction to your project.
 
 ## Import Dependencies
-import sqlite3
-import pandas as pd
-import pathlib.Path
+- import sqlite3
+- import pandas as pd
+- import pathlib.Path
 
 ## Logging
 Logging is recommended for most professional projects. Implement logging to enhance debugging and maintain a record of program execution.
@@ -72,9 +82,9 @@ logging.info("Program ended")
 Design a schema with at least two related tables, including foreign key constraints. Document the schema design in your README.md.
 
 Implement a Python script to create the database, tables, and populate the tables. Keep each SQL statement in a separate file.
-import sqlite3
-import pandas as pd
-import pathlib
+* import sqlite3
+* import pandas as pd
+* import pathlib
 
 Your code here....
 
@@ -101,7 +111,7 @@ Include the following SQL files:
 8. query_group_by.sql - use GROUP BY clause (and optionally with aggregation)
 9. query_join.sql - use INNER JOIN operation and optionally include LEFT JOIN, RIGHT JOIN, etc.
 
-# Python and SQL Integration
+## Python and SQL Integration
 Use Python to interact with the SQL database and execute SQL commands:
 import sqlite3
 def execute_sql_from_file(db_filepath, sql_file):
@@ -111,7 +121,7 @@ def execute_sql_from_file(db_filepath, sql_file):
         conn.executescript(sql_script)
         print(f"Executed SQL from {sql_file}")
 
-# Define Main Function 
+## Define Main Function 
 Implement a main() function to execute the project SQL operations logic.
 
 def main():
