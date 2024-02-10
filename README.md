@@ -8,6 +8,10 @@
 ...: Author Data
 ...: Book Data
 
+# External Dependencies
+Pandas
+PYarrow
+
 
 # Initialize venv
 py -m venv .venv
