@@ -4,34 +4,33 @@
 ## Overview
 '''Project 5 integrates Python and SQL, focusing on SQLite database interactions. This project introduces logging and involves creating and managing a database, building a schema, and performing various SQL operations, including queries with joins, filters, and aggregations.'''
 
-# Project Deliverables
+## Project Deliverables
 -Author Data
 -Book Data
 
-# External Dependencies
+## External Dependencies
 -pandas
 -pyarrow
 
-
-# Initialize venv
+## Initialize venv
 py -m venv .venv
 
-# Activate powershell script
+## Activate powershell script
 .\.venv\Scripts\Activate.ps1
 
-# Install Panda, numpy, seaborn
+## Install Panda, numpy, seaborn
 py -m pip install pandas 
 py -m pip install numpy
 py -m pip install seaborn
 py -m pip install matplotlib
 
-# Execute freeze dependencies
+## Execute freeze dependencies
 py -m pip freeze > requirements.txt
 
-# Objective 
+## Objective 
 Create a Python script demonstrating the ability to interact with a SQL database, including creating a database, defining a schema, and executing various SQL commands. Incorporate logging to document the process and provide user feedback.
 
-# Environment Setup
+## Environment Setup
 Create and activate a Python virtual environment for the project.
 You can install all required packages into your local project virtual environment.
 After you install the required dependencies, you can redirect the output of the pip freeze command to a requirements.txt file in your root project folder.
@@ -44,10 +43,10 @@ py -m venv .venv
 py -m pip install pandas pyarrow
 py -m pip freeze > requirements.txt
 
-# Start Project
+## Start Project
 In your Python file, you can create a docstring with a brief introduction to your project.
 
-# Import Dependencies
+## Import Dependencies
 import sqlite3
 import pandas as pd
 import pathlib.Path
@@ -63,13 +62,13 @@ Log other major events using logging.info().
 Log the start and end of major functions using logging.debug().
 
 import logging
-# Configure logging to write to a file, appending new logs to the existing file
+### Configure logging to write to a file, appending new logs to the existing file
 logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
 
 logging.info("Program started")
 logging.info("Program ended")
 
-# Schema Design and Database Creation
+## Schema Design and Database Creation
 Design a schema with at least two related tables, including foreign key constraints. Document the schema design in your README.md.
 
 Implement a Python script to create the database, tables, and populate the tables. Keep each SQL statement in a separate file.
@@ -87,7 +86,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# SQL Operations
+## SQL Operations
 Implement SQL statements and queries to perform additional operations and use Python to execute your SQL statements. You might create an additional table, insert new records, and perform data querying (with filters, sorting, and joining tables), data aggregation, and record update and deletion.
 
 Include the following SQL files:
@@ -130,8 +129,8 @@ def main():
 
     logging.info("All SQL operations completed successfully")
 
-# Conditional Script Execution
-By using standard boilerplate code, ensure the main function only executes when the script is run directly, not when imported as a module.
+## Conditional Script Execution
+Using standard boilerplate code ensures the main function only executes when the script is run directly, not when imported as a module.
 
 ## Module Design
 Include a docstring at the top of the file describing its purpose.
