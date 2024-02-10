@@ -1,3 +1,13 @@
+"""P5: Python and SQL
+Project Brief - This Python script demonstrates the ability to interact with a SQL database, including creating a database, 
+defining a schema, and executing various SQL commands. Incorporate logging to document the process and provide user feedback. Step-by-steps instructions
+for environment setup and installation can be accessed at this repository's README: https://github.com/14dstcyr/datafun-05-SQL/blob/main/README.md
+
+Script Name: Authors and Books
+
+Description: This script manages a database to view authors and books. Logging is employed for the purposes of monitoring and debugging.
+"""
+
 import sqlite3
 import pandas as pd
 import pathlib
