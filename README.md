@@ -77,7 +77,7 @@ import sqlite3
 import pandas as pd
 import pathlib
 
-# Your code here....
+Your code here....
 
 def main():
     create_database()
@@ -92,15 +92,15 @@ Implement SQL statements and queries to perform additional operations and use Py
 
 Include the following SQL files:
 
-create_tables.sql - create your database schema using sql
-insert_records.sql - insert at least 10 additional records into each table.
-update_records.sql - update 1 or more records in a table.
-delete_records.sql - delete 1 or more records from a table.
-query_aggregation.sql - use aggregation functions including COUNT, AVG, SUM.
-query_filter.sql - use WHERE to filter data based on conditions.
-query_sorting.sql - use ORDER BY to sort data.
-query_group_by.sql - use GROUP BY clause (and optionally with aggregation)
-query_join.sql - use INNER JOIN operation and optionally include LEFT JOIN, RIGHT JOIN, etc.
+1. create_tables.sql - create your database schema using sql
+2. insert_records.sql - insert at least 10 additional records into each table.
+3. update_records.sql - update 1 or more records in a table.
+4. delete_records.sql - delete 1 or more records from a table.
+5. query_aggregation.sql - use aggregation functions including COUNT, AVG, SUM.
+6. query_filter.sql - use WHERE to filter data based on conditions.
+7. query_sorting.sql - use ORDER BY to sort data.
+8. query_group_by.sql - use GROUP BY clause (and optionally with aggregation)
+9. query_join.sql - use INNER JOIN operation and optionally include LEFT JOIN, RIGHT JOIN, etc.
 
 # Python and SQL Integration
 Use Python to interact with the SQL database and execute SQL commands:
