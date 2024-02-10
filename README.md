@@ -9,8 +9,8 @@
 ...: Book Data
 
 # External Dependencies
-Pandas
-PYarrow
+  Pandas
+  PYarrow
 
 
 # Initialize venv
